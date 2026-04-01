@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+}
+.card{
+    background: darkslateblue;
+    padding: 40px;
+    border-radius: 16px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 1rem;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background: dodgerblue;
+}
+button:hover {
+    background: white;
+    transition: .3s;
+}
+#result{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+#errormsg{
+    color: #f87171;
+    font-size: 1rem;
+}
