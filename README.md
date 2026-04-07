@@ -1,0 +1,1 @@
+A simple and clean weather application made with HTML,CSS, and Java Script. That weather by city names, Display current temperature, humidity, and wind speed, Dynamic weather icons based on conditions (Clear, Clouds, Rain, Snow, etc.
