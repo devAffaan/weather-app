@@ -51,5 +51,3 @@ async function checkWeather(city) {
     }  
     
 }
-    console.log("js is working");
-    // checkWeather("srinagar");
